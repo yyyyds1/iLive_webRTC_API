@@ -1,0 +1,5 @@
+#ifndef ILIVE_RTC_AUDIO_DEVICE_H
+#define ILIVE_RTC_AUDIO_DEVICE_H
+
+
+#endif
