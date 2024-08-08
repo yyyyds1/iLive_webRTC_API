@@ -1,5 +1,11 @@
-#ifndef ILIVE_RTC_AUDIO_DEVICE_H
-#define ILIVE_RTC_AUDIO_DEVICE_H
+#ifndef ILIVE_VIDEO_RENDERER_H
+#define ILIVE_VIDEO_RENDERER_H
+class iLiveVideoRenderer{
 
+};
+
+class iLiveVideoRendererManager{
+
+};
 
 #endif
