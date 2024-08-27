@@ -5,18 +5,18 @@
 class iLivePeerConnectionObserver{
   public:
     virtual void OnSignalingState();
-    virtual void OnPeerConnectionState() override;
-    virtual void OnIceGatheringState() override;
-    virtual void OnIceConnectionState() override;
-    virtual void OnIceCandidate() override;
-    virtual void OnAddStream() override;
-    virtual void OnRemoveStream() override;
+    virtual void OnPeerConnectionState();
+    virtual void OnIceGatheringState();
+    virtual void OnIceConnectionState() ;
+    virtual void OnIceCandidate() ;
+    virtual void OnAddStream() ;
+    virtual void OnRemoveStream() ;
 
-    virtual void OnTrack() override;
-    virtual void OnAddTrack() override;
-    virtual void OnRemoveTrack() override;
-    virtual void OnDataChannel() override;
-    virtual void OnRenegotiationNeeded() override;
+    virtual void OnTrack() ;
+    virtual void OnAddTrack() ;
+    virtual void OnRemoveTrack() ;
+    virtual void OnDataChannel() ;
+    virtual void OnRenegotiationNeeded() ;
 
     //scoped_refptr<RTCMediaStream> MediaStreamForId(const std::string& id);
 
